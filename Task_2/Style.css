@@ -83,7 +83,11 @@ button {
     cursor: pointer;
     width: 80%;
 }
-
+#result{
+    
+    padding-left: 5%;
+   
+}
 .result-container {
     border: 1px solid black;
     margin-top: 20px;
