@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> TEMPERATURE CONVERTER</title>
+</head>
+<body>
+    <div id="heading"> 
+        <H1> TEMPERATURE CONVERTER</H1>
+    </div>
+    <h1 id="tagline">Convert with Ease: Celsius, Kelvin, Fahrenheit – Your Temperature, Your Choice!!!</h1>
+    <div class="converter-container">
+        <div class="input-container">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <select id="fromCurrency">
+                <option value="CEL">CELCIUS</option>
+                <option value="FAR">FARHENEIT</option>
+                <option value="KEL">KELVIN</option>
+            </select>
+            <span>TO</span>
+            <select id="toCurrency">
+                <option value="CEL">CELCIUS</option>
+                <option value="FAR">FARHENEIT</option>
+                <option value="KEL">KELVIN</option>
+            </select> 
+            <button id="convertBtn">Convert</button>
+        </div>
+        <div id="result" class="result-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
